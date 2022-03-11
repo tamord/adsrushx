@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Categories">
+  <DataContextMoniker Name="/CategoriesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c0912df7-7905-4657-a849-1b700cd4ad8c" absoluteBounds="4.875, 1.375, 2, 2.5401025390625">
+      <DataClassMoniker Name="/CategoriesDataContext/Table_AdsRushX_Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0b86bbf-3d5b-44ce-9a9b-e0acdea877dc" absoluteBounds="4.89, 1.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

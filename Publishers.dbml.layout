@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Publishers">
+  <DataContextMoniker Name="/PublishersDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5309e90d-ee7e-4f53-9436-b16df84f31cf" absoluteBounds="3.625, 1.125, 2, 5.2323225911458326">
+      <DataClassMoniker Name="/PublishersDataContext/Table_AdsRushX_Publisher" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90db3561-53c4-4819-8f8d-1057c9d8c7c5" absoluteBounds="3.6399999999999997, 1.585, 1.9700000000000002, 4.672322591145833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0ef794fa-7671-4d26-867a-f7088c9c622a" absoluteBounds="6.25, 1.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/PublishersDataContext/Table_AdsRushX_Publishers_Campaign" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3472a619-2a22-4778-bd99-c1cc52222862" absoluteBounds="6.265, 1.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0d7f7918-2606-4c1a-8070-d658d233b5bd" absoluteBounds="0.875, 1.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/PublishersDataContext/Table_AdsRushX_Publishers_Stat" />
+      <nestedChildShapes>
+        <elementListCompartment Id="42e27b22-3462-4282-8fc7-80559654030e" absoluteBounds="0.89000000000000012, 1.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="beb100c1-74ee-4ef7-ba53-2efce6785c7e" absoluteBounds="8.5, 1.5, 2, 4.8477197265625">
+      <DataClassMoniker Name="/PublishersDataContext/Table_AdsRushX_Publishers_Banner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="767dc9d4-ddf5-4408-944c-089067ef1bf6" absoluteBounds="8.515, 1.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="adsrush" Class="AffiliatesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=adsrush.database.windows.net;Initial Catalog=adsrush;User ID=tamordy" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="adsrushConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Table_AdsRushX_Affiliates" Member="Table_AdsRushX_Affiliates">
+    <Type Name="Table_AdsRushX_Affiliate">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="aid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="referaid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="referusername" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="fullname" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="country" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="paymentmethod" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="skype" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="whatsapp" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="active" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="suspended" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="signupdate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="signupip" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="balance" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="lastpayout" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="lastpayoutdate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="facebook" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+      <Column Name="linkedin" Type="System.String" DbType="NVarChar(3500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Table_AdsRushX_Affiliates_Stats" Member="Table_AdsRushX_Affiliates_Stats">
+    <Type Name="Table_AdsRushX_Affiliates_Stat">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="revenues" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="earnings" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="month" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="signups" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

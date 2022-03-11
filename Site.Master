@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AdsRushX.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>    
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+
+            <link rel=icon href="https://www.isra-ads.com/images/iconlogo2.png" type="image/x-icon">
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css?parameter=1" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2e07ee5440.js" crossorigin="anonymous"></script>
+
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+
+                <style type="text/css">
+             
+
+                                      .navbar{
+                 box-shadow: 0 14px 14px -1px #999;
+                  height:10rem;
+            }
+            .navbar-expand-lg {
+                /*margin-top:2px;*/
+                box-shadow:2px;
+                background-color:lightgray;
+                color:white;
+                border:1px solid rgba(0,0,0,.125);
+                border-radius:4px;
+                height:10rem;
+            } 
+             body{
+                 padding:0;
+             }
+           
+                </style>
+
+<body style="background-color:#E3E2E2">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+  <a href="https://www.adsrushx.com" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+      <img src="/images/iconlogo9.png" width="190" height="65" alt="Alternate Text" /></a>
+  <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div  class="collapse navbar-collapse"   id="navbarSupportedContent" >
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <a class="nav-link fas" style="text-decoration:none; font-weight: bold; padding-right:2em;  font-size:large; font-family:Verdana"" href="#">Advertisers</a>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link fas" style="text-decoration:none; font-weight: bold; padding-right:2em;  font-size:large; font-family:'Verdana'"" href="#">Publishers</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link fas" style="text-decoration:none; font-weight: bold; padding-right:2em; font-size:large; font-family:'Verdana'"" href="#">Bloggers</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link fas" style="text-decoration:none; font-weight: bold; padding-right:2em;  font-size:large; font-family:'Verdana'"" href="#">Affiliates</a>
+      </li>
+
+         
+    </ul>
+
+    <%--  <ul class="nav navbar-nav ml-auto" style="display:inline-block;">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user-tie">Login</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user-plus">SignUp</i></a>
+          </li>
+      </ul>--%>
+  </div>
+</nav>
+
+
+    <form runat="server">
+        
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p class="text-sm-center">&copy; <%: DateTime.Now.Year %> - Ads Rush X</p>
+            </footer>        
+
+    </form>
+</body>
+</html>
